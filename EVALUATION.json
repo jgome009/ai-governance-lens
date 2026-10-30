@@ -1,0 +1,342 @@
+{
+  "holdout": {
+    "pii": {
+      "recall": {
+        "point": 1.0,
+        "ci_low": 0.8318,
+        "ci_high": 1.0,
+        "n": 19
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.8318,
+        "ci_high": 1.0,
+        "n": 19
+      },
+      "near_miss_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.2281,
+        "n": 13
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0002,
+        "n": 15500
+      }
+    },
+    "health": {
+      "recall": {
+        "point": 1.0,
+        "ci_low": 0.8318,
+        "ci_high": 1.0,
+        "n": 19
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.8318,
+        "ci_high": 1.0,
+        "n": 19
+      },
+      "near_miss_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.1759,
+        "n": 18
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0002,
+        "n": 15500
+      }
+    },
+    "financial": {
+      "recall": {
+        "point": 1.0,
+        "ci_low": 0.8389,
+        "ci_high": 1.0,
+        "n": 20
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.8389,
+        "ci_high": 1.0,
+        "n": 20
+      },
+      "near_miss_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.2281,
+        "n": 13
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0002,
+        "n": 15500
+      }
+    },
+    "credential": {
+      "recall": {
+        "point": 1.0,
+        "ci_low": 0.8513,
+        "ci_high": 1.0,
+        "n": 22
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.8513,
+        "ci_high": 1.0,
+        "n": 22
+      },
+      "near_miss_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.1103,
+        "n": 31
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0002,
+        "n": 15500
+      }
+    }
+  },
+  "stress": {
+    "pii": {
+      "recall": {
+        "point": 0.1667,
+        "ci_low": 0.0301,
+        "ci_high": 0.5635,
+        "n": 6
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.2065,
+        "ci_high": 1.0,
+        "n": 1
+      },
+      "near_miss_fpr": {
+        "point": null,
+        "ci_low": null,
+        "ci_high": null,
+        "n": 0
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.3244,
+        "n": 8
+      }
+    },
+    "health": {
+      "recall": {
+        "point": 0.25,
+        "ci_low": 0.0456,
+        "ci_high": 0.6994,
+        "n": 4
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.2065,
+        "ci_high": 1.0,
+        "n": 1
+      },
+      "near_miss_fpr": {
+        "point": null,
+        "ci_low": null,
+        "ci_high": null,
+        "n": 0
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.3244,
+        "n": 8
+      }
+    },
+    "financial": {
+      "recall": {
+        "point": 0.3333,
+        "ci_low": 0.0615,
+        "ci_high": 0.7923,
+        "n": 3
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.2065,
+        "ci_high": 1.0,
+        "n": 1
+      },
+      "near_miss_fpr": {
+        "point": null,
+        "ci_low": null,
+        "ci_high": null,
+        "n": 0
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.3244,
+        "n": 8
+      }
+    },
+    "credential": {
+      "recall": {
+        "point": 0.3636,
+        "ci_low": 0.1517,
+        "ci_high": 0.6462,
+        "n": 11
+      },
+      "precision": {
+        "point": 1.0,
+        "ci_low": 0.5101,
+        "ci_high": 1.0,
+        "n": 4
+      },
+      "near_miss_fpr": {
+        "point": null,
+        "ci_low": null,
+        "ci_high": null,
+        "n": 0
+      },
+      "background_fpr": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.3244,
+        "n": 8
+      }
+    }
+  },
+  "stress_scenario_breakdown": [
+    {
+      "scenario": "code_log",
+      "category": "credential",
+      "n": 3,
+      "tp": 3,
+      "recall": 1.0,
+      "ci_low": 0.4385,
+      "ci_high": 1.0
+    },
+    {
+      "scenario": "code_log",
+      "category": "pii",
+      "n": 1,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935
+    },
+    {
+      "scenario": "german",
+      "category": "credential",
+      "n": 2,
+      "tp": 1,
+      "recall": 0.5,
+      "ci_low": 0.0945,
+      "ci_high": 0.9055
+    },
+    {
+      "scenario": "german",
+      "category": "financial",
+      "n": 1,
+      "tp": 1,
+      "recall": 1.0,
+      "ci_low": 0.2065,
+      "ci_high": 1.0
+    },
+    {
+      "scenario": "german",
+      "category": "health",
+      "n": 2,
+      "tp": 1,
+      "recall": 0.5,
+      "ci_low": 0.0945,
+      "ci_high": 0.9055
+    },
+    {
+      "scenario": "german",
+      "category": "pii",
+      "n": 2,
+      "tp": 1,
+      "recall": 0.5,
+      "ci_low": 0.0945,
+      "ci_high": 0.9055
+    },
+    {
+      "scenario": "obfuscated",
+      "category": "credential",
+      "n": 2,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.6576
+    },
+    {
+      "scenario": "obfuscated",
+      "category": "financial",
+      "n": 1,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935
+    },
+    {
+      "scenario": "obfuscated",
+      "category": "health",
+      "n": 1,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935
+    },
+    {
+      "scenario": "obfuscated",
+      "category": "pii",
+      "n": 1,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935
+    },
+    {
+      "scenario": "other_format",
+      "category": "credential",
+      "n": 4,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.4899
+    },
+    {
+      "scenario": "other_format",
+      "category": "financial",
+      "n": 1,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935
+    },
+    {
+      "scenario": "other_format",
+      "category": "health",
+      "n": 1,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7935
+    },
+    {
+      "scenario": "other_format",
+      "category": "pii",
+      "n": 2,
+      "tp": 0,
+      "recall": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.6576
+    }
+  ]
+}

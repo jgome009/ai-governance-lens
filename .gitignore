@@ -1,0 +1,12 @@
+# CLAUDE.md hard constraint: real exports never get committed.
+data/real/
+
+# Synthetic, but it's a corpus of raw text (fake sensitive strings +
+# benign near-misses) for phase-3 detector testing - kept out of version
+# control as a hygiene practice, not because it's real data.
+data/fixtures/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+data/synthetic/northwind.db
